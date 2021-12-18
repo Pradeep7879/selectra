@@ -1,0 +1,16 @@
+langcode: en
+api_endpoint: 'http://api.openweathermap.org/data/2.5/weather'
+api_key: 635beaca9164a2c8e43cd0b4f2ff6577
+country_code: ES
+city_id: '6359304'
+units_of_measurement: metric
+update_periodically: false
+update_interval: 10
+weather_characteristics:
+  feels_like: 'Feels like'
+  wind_speed: 'Wind speed'
+  temperature: Temperature
+  pressure: Pressure
+  humidity: Humidity
+_core:
+  default_config_hash: irsmgZGNhEySIhwXMOtHT0paROvTT4r4yMFVuHTMkQo
