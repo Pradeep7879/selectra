@@ -1,0 +1,22 @@
+uuid: f58fdaf2-7ecf-4454-b8e2-12b314a5dac9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - weather
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: weather_content
+theme: weather
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,35 @@
+uuid: c9f56ab5-0a93-4f97-a2cb-1d499c81b7d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.city_page.body
+    - field.field.node.city_page.field_city
+    - field.field.node.city_page.field_video
+    - node.type.city_page
+  module:
+    - text
+    - user
+id: node.city_page.teaser
+targetEntityType: node
+bundle: city_page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_city: true
+  field_video: true
+  langcode: true

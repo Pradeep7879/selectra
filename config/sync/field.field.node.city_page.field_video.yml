@@ -1,0 +1,29 @@
+uuid: b338029b-00a9-44b5-8f7e-251842948f92
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video
+    - media.type.remote_video
+    - node.type.city_page
+id: node.city_page.field_video
+field_name: field_video
+entity_type: node
+bundle: city_page
+label: 'Upload Video Link Here'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

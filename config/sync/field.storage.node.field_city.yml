@@ -1,0 +1,24 @@
+uuid: af961e98-4931-4339-b6f6-52e88c6ce77c
+langcode: en
+status: true
+dependencies:
+  module:
+    - country_state_city
+    - node
+id: node.field_city
+field_name: field_city
+entity_type: node
+type: country_state_city_type
+settings:
+  country_lable: 'Enter Country Here'
+  state_lable: 'Enter State Here'
+  city_lable: 'Enter City Here'
+  is_ascii: false
+  case_sensitive: false
+module: country_state_city
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -20,7 +20,7 @@
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
         "drupal/country_state_city": "^2.1",
-        "drupal/openweathermap": "^1.0@beta",
+        "drupal/openweather": "^1.1",
         "drush/drush": "^10.6"
     },
     "conflict": {

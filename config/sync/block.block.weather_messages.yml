@@ -1,0 +1,22 @@
+uuid: c5960abe-7aa4-46f4-8559-b929ad2facd4
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - weather
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: weather_messages
+theme: weather
+region: content
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

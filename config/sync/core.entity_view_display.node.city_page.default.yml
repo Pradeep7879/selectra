@@ -1,0 +1,48 @@
+uuid: 6575a346-7abc-4d4d-a010-d7b20397cb97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.city_page.body
+    - field.field.node.city_page.field_city
+    - field.field.node.city_page.field_video
+    - node.type.city_page
+  module:
+    - country_state_city
+    - text
+    - user
+id: node.city_page.default
+targetEntityType: node
+bundle: city_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_city:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: contry_state_city_formatter
+    region: content
+  field_video:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,21 @@
+uuid: 44435920-c1e3-41c1-83c5-ad81e8a0bd06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_city
+    - node.type.city_page
+  module:
+    - country_state_city
+id: node.city_page.field_city
+field_name: field_city
+entity_type: node
+bundle: city_page
+label: 'Update City Here'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: country_state_city_type
